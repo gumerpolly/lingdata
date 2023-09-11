@@ -1,33 +1,22 @@
 <doctype html>
 
-<!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html -->
-
 <html>
 
-<!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
-
 	<head>
-		<title>Личная страница Веры Кузнецовой</title>
-	 	<!-- Required meta tags -->
+		<title>Личная страница Гумеровой Полины</title>
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" content="Личная страница и контакты">
+		<meta name="description" content="Личная страница и информация обо мне">
 
-		<!-- Bootstrap Core CSS -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<!-- Эта страница сделана с помощью bootstrap - популярной библиотеки для создания и настройки сайтов. Ниже вы увидите, что многие теги содержат атрибуты class - bootstrap содержит шаблоны, как такие элементы красиво оформить -->
 
 	</head>
 	
-<!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
-
-<!-- меню (navigation bar) -->
 
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 
-<!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
 			<div class="container"> 
 				<div class="navbar-header"> 
 					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a> 
@@ -36,34 +25,30 @@
 					<ul class="nav navbar-nav navbar-right"> 
 						<li> <a href="https://olesar.github.io/lingdata/">Страница курса</a> </li> 
 						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
-<!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
+
 					</ul>
 				</nav> 
 			</div>
 		</nav>
-
-<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
 		<header style="background-color:rgba(255, 255, 150, .5); padding-top:100px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
-<!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
 						<h1>Гумерова Полина</h1>
-						<hr style="background-color:#75100e; padding-top:3px;"> <!-- это горизонтальная линия -->
-						<p><i>Человек, пока что плохо умеющий <b>создавать</i> HTML-страницы</b></p> 
+						<hr style="background-color:#75100e; padding-top:3px;"> 
+						<p><i>Человек, пока что плохо умеющий <b>создавать</i> HTML-страницы</b>, но зато <i>хорошо смотрящийся</i> рядом с трамваями</p> 
+
 					</div>
 					<div class="col-md-4">
-<!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
-<!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="https://sun9-1.userapi.com/impg/a_bhz5ThBxrW-AE4rs5IWAU2Qv3L8c_NXoQiOQ/Bt890tm4AyU.jpg?size=810x1080&quality=95&sign=1163344416d4b47486088f3c842d6bd9&type=album" style="height:320px; margin:20px 20px 40px 20px; " >
+
+<img src="https://sun9-1.userapi.com/impg/a_bhz5ThBxrW-AE4rs5IWAU2Qv3L8c_NXoQiOQ/Bt890tm4AyU.jpg?size=810x1080&quality=95&sign=1163344416d4b47486088f3c842d6bd9&type=album" style="height:420px; margin:30px 30px 50px 30px; " >
 					</div>
 				</div>
 			</div>
 		</header>
 
-<!-- часть страницы, которая под шапкой -->
 		<section id="portfolio">
 			<div class="container">
 
